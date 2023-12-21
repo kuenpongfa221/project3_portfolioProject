@@ -51,11 +51,19 @@ main {
       list-style: none;
       a {
         text-decoration: none;
+        font-size: 1.25rem;
       }
     }
   }
   ol {
     padding-left: 1rem;
+    font-size: 1.25rem;
+    li {
+      a {
+        text-decoration: none;
+        font-size: 1.25rem;
+      }
+    }
   }
 
   section.projects {

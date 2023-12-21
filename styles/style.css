@@ -46,9 +46,15 @@ main ul li {
 }
 main ul li a {
   text-decoration: none;
+  font-size: 1.25rem;
 }
 main ol {
   padding-left: 1rem;
+  font-size: 1.25rem;
+}
+main ol li a {
+  text-decoration: none;
+  font-size: 1.25rem;
 }
 main section.projects {
   flex: 1 1 600px;
