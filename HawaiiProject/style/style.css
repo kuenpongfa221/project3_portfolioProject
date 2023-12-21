@@ -2,9 +2,8 @@
 * {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'Noto Sans TC', sans-serif;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -12,56 +11,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  position: -webkit-sticky;
+  align-items: center;
+  flex-wrap: wrap;
   position: sticky;
   top: 0;
   z-index: 5;
   background-color: white;
-  -webkit-box-shadow: 3px 3px 5px 6px #b1b1b1;
-          box-shadow: 3px 3px 5px 6px #b1b1b1;
+  box-shadow: 3px 3px 5px 6px rgb(177, 177, 177);
 }
-
 header div.logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-flex: 5;
-      -ms-flex: 5 1 400px;
-          flex: 5 1 400px;
+  align-items: center;
+  flex: 5 1 400px;
   margin-left: 2rem;
 }
-
 header div.logo img {
   width: 6vw;
   height: 6vw;
 }
-
 header nav {
-  -webkit-box-flex: 2;
-      -ms-flex: 2 1 400px;
-          flex: 2 1 400px;
+  flex: 2 1 400px;
 }
-
 header nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   list-style: none;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
-
 header nav ul li a {
   color: #09777D;
   text-decoration: none;
@@ -76,22 +52,12 @@ main section.backImage {
   background-position: center;
   position: relative;
   z-index: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
 }
-
 main section.backImage div.filter {
   background-color: rgba(0, 0, 0, 0.2);
   width: 100%;
@@ -100,13 +66,11 @@ main section.backImage div.filter {
   top: 0;
   z-index: -1;
 }
-
 main section.backImage h3 {
   font-size: 3.5rem;
   color: white;
   margin: 2rem 0rem;
 }
-
 main section.backImage button.start {
   background-color: #0BC8E1;
   padding: 0.75rem 1.5rem;
@@ -116,84 +80,52 @@ main section.backImage button.start {
   border-radius: 0.75rem;
   cursor: pointer;
 }
-
 main section.second {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
-
 main section.second h2 {
   font-size: 2rem;
   margin: 2rem 0rem;
 }
-
 main section.second section.cards {
   min-height: 90vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 80%;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-
 main section.second section.cards div.card {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 300px;
-          flex: 1 1 300px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1 1 300px;
   padding: 1rem;
 }
-
 main section.second section.cards div.card div.image-container {
   overflow: hidden;
   width: 15vw;
   height: 15vw;
   border-radius: 50%;
 }
-
 main section.second section.cards div.card div.image-container img {
   width: 15vw;
   height: 15vw;
   border-radius: 50%;
-  -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
-
 main section.second section.cards div.card div.image-container img:hover {
-  -webkit-transform: scale(1.3);
-          transform: scale(1.3);
+  transform: scale(1.3);
 }
-
 main section.second section.cards div.card h4 {
   font-size: 2rem;
   margin: 1rem 0rem;
 }
-
 main section.second section.cards div.card p {
   font-size: 1.25rem;
 }
-
 main section.second section.cards div.card a {
   font-size: 1.25rem;
   text-decoration: none;
@@ -207,7 +139,6 @@ footer {
   color: black;
   position: relative;
 }
-
 footer div.footer_filter {
   width: 100%;
   height: 40vh;
@@ -217,49 +148,32 @@ footer div.footer_filter {
   padding: 10rem;
   z-index: -1;
 }
-
 footer div.logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   padding: 1.5rem;
 }
-
 footer div.logo img {
   width: 6vw;
   height: 6vw;
 }
-
 footer div.logo h4 {
   font-size: 1.15rem;
 }
-
 footer ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   list-style-type: none;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 footer ul li {
   margin: 0.5rem;
 }
-
 footer ul li a {
   text-decoration: none;
   color: black;
   z-index: 0;
 }
-
 footer ul li a img {
   margin: 1rem 1.5rem;
   width: 4vw;
@@ -291,7 +205,6 @@ footer ul li a img {
     height: 10vw;
   }
 }
-
 @media screen and (max-width: 550px) {
   header div.logo {
     margin-left: 0.5rem;
@@ -301,11 +214,9 @@ footer ul li a img {
     height: 13.5vw;
   }
 }
-
 @media screen and (max-width: 700px) {
   main section.second section.cards div.card img {
     width: 40vw;
     height: 40vw;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
